@@ -1,2 +1,2 @@
 # WebDev
-For my AUT web dev class
+My Git repo for WebDev COMP721
