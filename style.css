@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #d1e7c0; /* Light green background */
+  }
+  
+  form.form-container { /* Target the form using its class */
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto; /* Add margins for centering */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5e7234; /* Dark green text color */
+  }
+  
+  input[type="text"],
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #5e7234; /* Dark green border */
+    background-color: #e1edb3; /* Light green background for inputs */
+  }
+  
+  input[type="submit"] {
+    background-color: #568203; /* Avocado green submit button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #568203; /* Avocado green link color */
+  }
+  
+  /* Style the radio button options */
+  .share {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Make the button round */
+    background-color: #568203; /* Avocado green background */
+    color: white;
+    font-weight: 400; /* Make the text bolder */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  
