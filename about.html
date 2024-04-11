@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About Page</title>
+</head>
+<body>
+    <h1>About Page</h1>
+    <h3>Task Report</h3>
+    <p><strong>What special features have you done or attempted in creating the website?</strong>
+    <br>- I've implemented the POST and GET functions to receive user input from web forms and send them into a database.
+    <br>- I've extracted SQL queries from a txt file and stored them in a PHP array for later use within the PHP files.
+    <br>- I've implemented data validation so no invalid data can be sent into the database.</p>
+
+    <p><strong>Which part(s) did you have trouble with?</strong>
+    <br>- When I first set up my poststatusprocess.php file, I started with a poor approach and it ended up with me starting the file from scratch. I found it was not  
+    robust and it became hard to read the code. <br>When I restarted the file I made sure to implement proper input validation and error messages, making sure all 
+    statements were nested correctly.
+    <br>- Setting up the database was a bit tricky at first and took me about an hour to properly configure it. I guess I just felt a little rusty as I hadn't
+    touched a DB since S2 last year.</p>
+
+    <p><strong>What would you like to do better next time?</strong>
+    <br>- I would like to improve code organization for better maintainability, maybe making use of more functions to improve efficiency.
+    <br>- Next time I would like to implement a more efficient way to use SQL queries, because often when SQL queries were reliant on user<br> input
+    I would still have to swap the user input into the query after bringing the SQL query into the PHP file.</p>
+
+    <p><strong>What you have learned along the way? Did you use any references or resources during this project? If so, please include the sources.</strong>
+    <br>- I was introduced and got comfortable with using POST and GET methods.
+    <br>- I have learned how to manipulate SQL databases with using user input and PHP.
+    <br>- And most of all this assignment taught me PHP and made me more comfortable with the PHP language.
+    <br>- My main resources that I used were ChatGPT and StackOverflow. There would be 2 main situations when I would use these resources: <br>1) When I wanted to code more efficiently,
+    for example, creating sample data to input into the database for testing reasons (CHATGPT).<br> 2) Whenever I got stuck or I found myself not knowledgeable in a certain
+    area I would use ChatGPT and StackOverflow to help me overcome the problem.</p>
+
+    <h3>Reset Database</h3>
+    <form id="resetForm" action="resetdb.php" method="post">
+        <button class="btn" type="submit">Reset Database</button>
+    </form>
+    <div id="resetMessage"></div>
+
+    <h3>Return to Home Page</h3>
+    <a href="index.html">Home</a>
+</body>
+</html>
